@@ -1,0 +1,109 @@
+.colorGrid {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.colorGrid p {
+    font-size: 25px;
+    color: white;
+    line-height: 1.4;
+}
+
+@media (max-width: 2000px) {
+    .colorGrid {
+        flex-wrap: wrap;
+    }
+}
+
+.purpleBox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-image: url('purple.jpg');
+    background-repeat: no-repeat;
+    width: 736px;
+    height: 414px;
+}
+.purpleBox h1 {
+    margin: 5px;
+    font-size: 50px;
+    background-color: rgb(223, 207, 250);
+    padding: 20px 30px 1px 30px;
+    border-radius: 30px;
+}
+
+.purpleBox img {
+    width: 130px;
+    height: 130px;
+    margin-left: -10px;
+}
+
+.purpleBox a {
+    color: rgb(225, 208, 255);
+}
+
+.top {
+    display: flex;
+}
+
+.blueBox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-image: url('Blue.jpg');
+    background-repeat: no-repeat;
+    width: 736px;
+    height: 414px;
+}
+
+.blueBox h1 {
+    margin: 5px;
+    font-size: 50px;
+    background-color: rgb(195, 223, 255);
+    padding: 20px 30px 1px 30px;
+    border-radius: 30px;
+}
+
+.blueBox img {
+    width: 130px;
+    height: 130px;
+    margin-left: -10px;
+}
+
+.blueBox a {
+    color: rgb(198, 229, 255);
+}
+
+.pinkBox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-image: url('pink.jpg');
+    background-repeat: no-repeat;
+    width: 736px;
+    height: 414px;
+}
+
+.pinkBox h1 {
+    margin: 5px;
+    font-size: 50px;
+    background-color: rgb(255, 195, 223);
+    padding: 20px 30px 1px 30px;
+    border-radius: 30px;
+}
+
+.pinkBox img {
+    width: 130px;
+    height: 130px;
+    margin-left: -5px;
+}
+
+.pinkBox a {
+    color: rgb(255, 198, 236);
+}
+
+.Oops {
+    font-size: 50px;
+    text-align: center;
+}
